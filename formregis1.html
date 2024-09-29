@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <table border="0"  celpadding="20" cellspacing="0" width="60%">
+        <tr>
+            <td colspan="3" align="center"><h1>FORM REGISTRASI</h1></td>
+        </tr>
+        <tr>
+        <td>
+    <table border="0">
+        <form>
+        <tr>
+            <td width="40%">NIM</td>
+            <td>:</td>
+            <td><input type="text" size="50"></td>
+        </tr>
+
+
+        <tr>
+            <td width="40%">NAMA</td>
+            <td>:</td>
+            <td><input type="text" size="50"></td>
+        </tr>
+
+
+        <tr>
+            <td width="40%">
+                <label for="JK">JENIS KELAMIN</label><br>
+            </td>
+            <td>:</td>
+            <td>    
+               <input type="radio" id="JK" name="JK">
+               <label for="JK">Perempuan</label>
+               <input type="radio" id="JK" name="JK">
+               <label for="JK">Laki-laki</label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="asal">ASAL</label><br>
+            </td>
+            <td>:</td>
+            <td>    
+                <select id="asal" name="asal">
+                    <option value="-">-</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="yogyakarta">Yogyakarta</option>
+                    <option value="Bekasi">Bekasi</option>
+                    <option value="Bogor">Bogor</option>
+                </select>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="num">NO TELP</label><br>
+            </td>
+            <td>:</td>
+            <td>    
+               <input type="number" id="num" name="num" size="50">
+            </td>
+        </tr>
+
+
+        <tr>
+           <td>
+            <label for="e">ALAMAT EMAIL</label>
+            <td>:</td>
+            <td><input type="email" id="e" name="e" size="50"></td>
+           </td>
+        </tr>
+
+
+        <tr>
+           <td><label for="pw">PASSWORD</label></td>
+            <td>:</td>
+            <td><input type="password" id="pw" name="pw" size="50"></td>
+           </td>
+        </tr>
+                  <tr>
+                     <td width="40%"><label for="hobi">HOBBY</label></td>
+                     <td>:</td>
+                     <td>
+                      <input type="checkbox">
+                       <label for="hobi">Sepakbola</label><br>
+                       <input type="checkbox" id="hobi" name="hobi">
+                       <label for="hobi">Futsal</label><br>
+                       <input type="checkbox" id="hobi" name="hobi">
+                       <label for="hobi">Berenang</label><br>
+                     </td>
+                      <td>
+                       <input type="checkbox" id="hobi" name="hobi">
+                       <label for="hobi">Membaca</label><br>
+                       <input type="checkbox" id="hobi" name="hobi">
+                       <label for="hobi">Jogging</label><br>
+                       <input type="checkbox" id="hobi" name="hobi">
+                      <label for="hobi">nGoWes</label><br>
+                      </td>
+                    </tr>   
+                </table>       
+        <table>
+        <tr>
+            <td width="36%">
+                <label for="desk">DESKRIPSI DIRI</label>
+            </td>
+                <td>:</td>
+            <td>    
+                <textarea name="desk"  rows="7" cols="75"></textarea>
+            </td>
+        </tr>
+        </table>
+      <tr>
+         <td align="center">
+            <input type="submit" value="OK" >
+            <input type="reset" value="Batal" >
+         </td>
+        </tr>
+      </form>
+     </table>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>

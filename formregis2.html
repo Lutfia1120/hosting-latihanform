@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi 2</title>
+</head>
+<body>
+    <h1>Form Registrasi</h1><br>
+    Isi Data Dibawah ini:
+    <table border="0">
+      <form>
+        <tr>
+            <td width="25%"><label for="nm">Nama</label></td>
+            <td><input type="text" id="nm" name="nm" size="30"></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td><textarea name="alamat" rows="5" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="tl">Tempat Lahir</label></td>
+            <td><input type="text" id="tl" name="tl" size="30"></td>
+        </tr>
+        <tr>
+            <td><label for="tr">Tanggal Lahir</label></td>
+            <td><input type="text" id="tr" name="tr" size="30"></td>
+        </tr>
+        <tr>
+            <td><label for="jk">Jenis Kelamin</label></td>
+            <td>
+                <input type="radio" id="jk" name="jk">
+               <label for="jk">Laki-Laki</label>
+               <input type="radio" id="jk" name="jk">
+               <label for="jk">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pil">Pendidikan</label></td>
+            <td>
+                <select id="pil" name="pil">
+                    <option value="s1">S1</option>
+                    <option value="s1">S2</option>
+                    <option value="s1">S3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+           <td>
+            <input type="submit" value="Submit">
+            <input type="button" value="Cancel">
+           </td>
+        </tr>
+      </form>
+    </table>
+    
+    
+</body>
+</html>
